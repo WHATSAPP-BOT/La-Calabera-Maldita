@@ -34,7 +34,7 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/BrunoSobrino/ShadowBotV3
+> git clone https://github.com/rodriku/La-Calabera-Maldita
 > cd ShadowBotV3
 > npm install
 > npm install -g npm@8.5.4
