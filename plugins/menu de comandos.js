@@ -15,33 +15,33 @@ let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *La Chica Bot _ Calabera*
+║═ *🇱🇷La Chica Bot _ Calabera 🇱🇷*
+║🐍🐍🐍🐍🐍🐍🐍🐍
+║➤ *🐲𝗛ola, ${username}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${username}!!*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: La Calabera Maldita* 
-║➤ *Numero del creador:* *wa.me/51926328073 (No Bot)*
-║➤ *PayPal:* *romnasystem.3786@gmail.com*
-║➤ *Numero del Bot oficial:* *wa.me/13362711679*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║🐲 *Creador del Bot: La Calabera Maldita* 
+║🐍 *Numero del creador:* *wa.me/51926328073 (No Bot)*
+║📱 *PayPal:* *romnasystem.3786@gmail.com*
+║🐲 *Numero del Bot oficial:* *wa.me/13362711679*
+║🐍🐍🐍🐍🐍🐍🐍🐍
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
 ┃ *<INFORMACIÓN|MENUS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
-┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
-┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
-┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
-┣ ඬ⃟ℹ️ _${usedPrefix}instalarbot_
-┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
-┣ ඬ⃟ℹ️ _${usedPrefix}estado_
-┣ ඬ⃟ℹ️ _Bot_
-┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
-┣ ඬ⃟ℹ️ _Codigos para audios_
-┣ ඬ⃟ℹ️ _Términos y condiciones_
+┣ ඬ⃟🌎️️ _${usedPrefix}sc_
+┣ ඬ⃟🌎️️ _${usedPrefix}donar_
+┣ ඬ⃟🌎️️ _${usedPrefix}infobot_
+┣ ඬ⃟🌎️️ _${usedPrefix}grupos_
+┣ ඬ⃟🌎️ _${usedPrefix}instalarbot_
+┣ ඬ⃟🌎️ _${usedPrefix}menusimple_
+┣ ඬ⃟🌎️️ _${usedPrefix}menuaudios_
+┣ ඬ⃟🌎️️ _${usedPrefix}menu2_
+┣ ඬ⃟🌎️️ _${usedPrefix}labiblia_
+┣ ඬ⃟🌎️ _${usedPrefix}estado_
+┣ ඬ⃟🌎️ _Bot_
+┣ ඬ⃟🌎️ _¿Qué es un Bot?_
+┣ ඬ⃟🌎️ _Codigos para audios_
+┣ ඬ⃟🌎️ _Términos y condiciones_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<REPORTA FALLOS EN ALGÚN COMANDO/>*

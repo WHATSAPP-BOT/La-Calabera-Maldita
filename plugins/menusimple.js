@@ -14,26 +14,26 @@ let username = conn.getName(who)
 let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${username}!!, Soy la Chica Bot*
+║➤ *✨𝗛ola, ${username}!!, Soy la Chica Bot🐍*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
 ┃ *<MENU SIMPLE/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
-┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
-┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
-┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
-┣ ඬ⃟ℹ️ _${usedPrefix}instalarbot_
-┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
-┣ ඬ⃟ℹ️ _${usedPrefix}estado_
-┣ ඬ⃟ℹ️ _Bot_
-┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
-┣ ඬ⃟ℹ️ _Codigos para audios_
-┣ ඬ⃟ℹ️ _Términos y condiciones_
+┣ ඬ⃟🐲️️ _${usedPrefix}sc_
+┣ ඬ⃟🐲️️ _${usedPrefix}donar_
+┣ ඬ⃟🐲️️ _${usedPrefix}infobot_
+┣ ඬ⃟🐲️️ _${usedPrefix}grupos_
+┣ ඬ⃟🐲️ _${usedPrefix}instalarbot_
+┣ ඬ⃟🐲️ _${usedPrefix}menusimple_
+┣ ඬ⃟🐲️️ _${usedPrefix}menuaudios_
+┣ ඬ⃟🐲️️ _${usedPrefix}menu2_
+┣ ඬ⃟🐲️️ _${usedPrefix}labiblia_
+┣ ඬ⃟🐲️ _${usedPrefix}estado_
+┣ ඬ⃟🐲️ _Bot_
+┣ ඬ⃟🐲️ _¿Qué es un Bot?_
+┣ ඬ⃟🐲️ _Codigos para audios_
+┣ ඬ⃟🐲️ _Términos y condiciones_
 ┣ ඬ⃟📬 _${usedPrefix}bug_
 ┣ ඬ⃟📬 _${usedPrefix}report_
 ┣ ඬ⃟🤖 _${usedPrefix}join_ 
