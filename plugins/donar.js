@@ -4,20 +4,15 @@
 // SI TE HARAS PASAR POR EL CREADOR OFC, DONA LO QUE ESTE EN TUS POSIBILIDADES
 let handler = async m => m.reply(`
 *┏ ┅ ━━━━━━━━━━━━━ ┅ ━*
-*┇       「 DONAR 」*
+*┇       「 DONAR para el BOT」*
 *┣ ┅ ━━━━━━━━━━━━━ ┅ ━*
-*┃ ❖ Hola persona hermosa 💙*
+*┃ ❖ Hola amigo(a) 💙*
 *┃ 👉🏻 Aquí tienes algunos datos*
 *┃ para que puedas apoyar <3*
-*┃*
-*┃ -   CLABE: 646180192175788481* 
-*┃ -   BANCO: STP* 
-*┃ -   BENEFICIARIO: JOSE SOBRINO* 
-*┃ -   CONCEPTO: APOYO*  
-*┃➤ PayPal: https://www.paypal.me/TheShadowBrokers133*
+*┃➤ PayPal: romansystem.3786@gmail.com*
 *┃❖ Contáctame si necesitas otros*
 *┃datos y para darte las gracias <3*
-*┃❖ wa.me/5219996125657*
+*┃❖ wa.me/51926328073*
 *┗ ┅ ━━━━━━━━━━━━━ ┅ ━*
 `.trim()) 
 handler.command = /^(dona|donar|apoyar|dardinero|apoyo)$/i

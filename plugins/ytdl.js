@@ -7,10 +7,10 @@ let chat = global.DATABASE.data.chats[m.chat]
   let { dl_link, thumb, title, filesize, filesizeF} = await yta(args[0], servers.includes(server) ? server : 'id4')
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
  let fs = require('fs')
- let y = fs.readFileSync('./Menu2.jpg')
+ let y = fs.readFileSync('./carro_calabera.jpg')
 
 
-conn.sendMessage(m.chat, `*⏯ ️Descargador By ShadowBot ⏯️*\n\n*🔥Titulo:* ${title}\n*📂Tamaño del archivo:* ${filesizeF}` , 'conversation', {quoted: m, thumbnail: global.thumb, contextInfo:{externalAdReply: {title: 'Simple WhatsAppp Bot', body: `© ${conn.user.name}`, sourceUrl: 'enviando...', thumbnail: y}}})
+conn.sendMessage(m.chat, `*⏯ ️Descargado By la Chica Bot ⏯️*\n\n*🔥Titulo:* ${title}\n*📂Tamaño del archivo:* ${filesizeF}` , 'conversation', {quoted: m, thumbnail: global.thumb, contextInfo:{externalAdReply: {title: 'Simple WhatsAppp Bot', body: `© ${conn.user.name}`, sourceUrl: 'enviando...', thumbnail: y}}})
 conn.sendFile(m.chat, dl_link , `By ${conn.user.name}.mp3`, m, false, {ptt: true, duration: 999999999999, asDocument: chat.useDocument})
 conn.sendFile(m.chat, dl_link , `By ${conn.user.name}.mp3`, m)
 }

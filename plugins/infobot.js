@@ -48,10 +48,10 @@ let handler = async (m, { conn, usedPrefix }) => {
   let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
   let speed = neww - old
   let info = `
-╠═〘 *Informacion del Bot* 〙 ═
+╠═〘 *Informacion del Bot Calabera* 〙 ═
 ╠
-╠➥ [🤴🏻] Creador del Bot: *Bruno Sobrino*
-╠➥ [#️⃣] Numero del creador: *+1 (772) 238-6341*
+╠➥ [🤴🏻] Creador del Bot: *LA CALABERA*
+╠➥ [#️⃣] Numero del creador: *+51 926328073*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
 ╠➥ [👨‍🦯] Velocidad: *${speed} milisegundos*
@@ -65,9 +65,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
-╠═〘 *The Shadow Brokers - Bot* 〙 ═
+╠═〘 *La Chica Bot Sexy* 〙 ═
 `.trim() 
-conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})
+conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 LA CHICA BOT - CALABERA 🔥', "jpegThumbnail": fs.readFileSync(`./calabera_bot_editable.jpg`)}}}})
 }
 //handler.help = ['ping', 'speed']
 //handler.tags = ['info', 'tools']
