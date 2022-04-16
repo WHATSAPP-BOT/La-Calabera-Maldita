@@ -239,8 +239,8 @@ _quickTest()
   .then(() => conn.logger.info('Quick Test Done'))
   .catch(console.error)
   //COMANDO PARA AUDIO DEJARLO EN EL CASO QUE FUNCIONE
-await await await await await await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true 
-})
-}
+//await await await await await await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
+//type: 'audioMessage', 
+//ptt: true 
+//})
+//}
