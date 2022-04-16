@@ -59,6 +59,6 @@ let str = `
 let mentionedJid = [who]
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
 }}
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(menu2|audios|menú2|menu2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.fail = null
 module.exports = handler

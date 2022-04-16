@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = anime[Math.floor(Math.random() * anime.length)]
 	await conn.sendMessage(m.chat, {
-		contentText: '*TE VA A CAER LA POLICÍA 🚔️*',
+		contentText: '*TE VA A CAER LA POLICÍA CYBERCÉTICA 🚔️*',
 		footerText: 'La Chica Bot _ Calabera',
 		buttons: [
 			{ buttonId: '.loli2', buttonText: { displayText: 'SIGUIENTE' }, type: 1 }

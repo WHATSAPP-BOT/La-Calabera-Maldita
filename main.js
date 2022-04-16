@@ -123,8 +123,8 @@ global.reloadHandler = function () {
   }
   conn.welcome = '┏━━━━━━━━━━━━\n┃──〘 *🐲WELCOME🐲* 〙──\n┃━━━━━━━━━━━━\n┃ *_✨ @user bienvenid@ a_* \n┃ *_@subject ✨_*\n┃\n┃=> *_En este grupo podrás_*\n┃ *_encontrar:_*\n┠⊷ *_Servidores VPS 💉 _*\n┠⊷ *_Amistades 🫂* \n┠⊷ *Desmadre 💃🕺* \n┠⊷ *Relajo 💅* \n┠⊷ *Enemig@s 🥵* :\n┠⊷ *Un Bot Sexy*\n┃\n┃=> *_Puedes solicitar mi lista de_*\n┃ *_comandos con:_*\n┠⊷ *#menu*\n┃\n┃=> *_Aquí tienes la descripción_* \n┃ *_del grupo, léela!!_*\n┃\n\n@desc\n\n┃ \n┃ *_🐍  Disfruta de tu_* \n┃ *_estadía en el grupo de la Chica Bot Calabera🐍_*  \n┃\n┗━━━━━━━━━━━'
   conn.bye = '┏━━━━━━━━━━━━\n┃──〘 *ADIOS* 〙───\n┃━━━━━━━━━━━━\n┃ *_☠ Se fue @user_* \n┃ *_Le tiene miedo a la Calabera, Que dios lo bendiga️_* \n┃ *_ Y se vuelva gay 😇_*\n┗━━━━━━━━━━'
-  conn.spromote = '*@user BIENVENIDO🐲 AHORA FORMAS PARTE DE LOS INTEGRANTES DEL GRUPO CALABERA*'
-  conn.sdemote = '*@user 🐍 AHORA FROMAS PARTE DE LOS ADMINISTRADORES DEL GRUPO🐍*'
+  conn.spromote = '*@user 🐍 AHORA FORMAS PARTE DE LOS ADMINISTRADORES DEL GRUPO🐍*'
+  conn.sdemote = '*@user BIENVENIDO🐲 AHORA FORMAS PARTE DE LOS INTEGRANTES DEL GRUPO CALABERA*'
   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate
@@ -238,3 +238,9 @@ async function _quickTest() {
 _quickTest()
   .then(() => conn.logger.info('Quick Test Done'))
   .catch(console.error)
+  //COMANDO PARA AUDIO DEJARLO EN EL CASO QUE FUNCIONE
+await await await await await await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true 
+})
+}

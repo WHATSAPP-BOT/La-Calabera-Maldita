@@ -14,8 +14,8 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *🇱🇷La Chica Bot _ Calabera 🇱🇷*
+╭══〘 |✯✯✯✯✯✯✯| 〙═╮
+║═ *🇱🇷La Chica Bot _ Calabera*
 ║🐍🐍🐍🐍🐍🐍🐍🐍
 ║➤ *🐲𝗛ola, ${username}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -346,10 +346,13 @@ let menu =`
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, 'chica Bot_Calabera', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
-//await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
-//type: 'audioMessage', 
-//ptt: true 
-//})
+//COMANDO PARA AUDIO Y MUSICA
+//COMANDO PARA AUDIO Y MUSICA
+//COMANDO PARA AUDIO Y MUSICA
+await await await await await await conn.sendFile(m.chat, vn, 'menu_chica.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true 
+})
 }
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
 handler.fail = null
