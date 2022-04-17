@@ -164,11 +164,11 @@ global.reloadHandler = function () {
 //ptt: true 
 //})
 //SEGUNDO CODIGO DE MUSICA, SACAR EN CASO NO FUNCIONE
-let vn = './media/bienvenido_grupo.mp3'
-await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
-    type: 'audioMessage', 
-    ptt: true 
-}
+//let vn = './media/bienvenido_grupo.mp3'
+//await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
+ //   type: 'audioMessage', 
+   // ptt: true 
+//}
 
 // Plugin Loader
 let pluginFolder = path.join(__dirname, 'plugins')
