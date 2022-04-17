@@ -1,7 +1,7 @@
 let PhoneNumber = require('awesome-phonenumber')
 let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
+let pp = './Menu2.png'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 try {
 //    pp = await conn.getProfilePicture(who)
@@ -55,10 +55,10 @@ let str = `
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
 
-*_LA CALABERA MALDITA  」_*`.trim()
+*_LA CHICA BOT_*`.trim()
 let mentionedJid = [who]
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
 }}
-handler.command = /^(menu2|audios|menú2|menu2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.fail = null
 module.exports = handler

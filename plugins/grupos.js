@@ -3,14 +3,13 @@ let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   
 let info = `
-*Hola 👋🏻, unete a los grupos oficiales de la Calabera Maldita*
-
+*Hola 👋🐲, unete a los grupos oficiales de la Calabera Maldita*
+*╔─━━━━━━░★░━━━━━━─╗*
 *➤ Grupos oficiales del Bot:*
-*1.-* https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
+*1.-* https://chat.whatsapp.com/GIq7aW0ouU199StPUV8etI
 
-*9.-* https://chat.whatsapp.com/Ef89aIuOLeD3Fa2sYmKwp7
+*2.-* https://chat.whatsapp.com/DjzarHeUstsC6QIRULYwi4
 
-*10.-* https://chat.whatsapp.com/C2WYb1hiiijCI13QSUZLM9
 `.trim() 
 
 conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 La Chica - Bot Calabera 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.png`)}}}})}
