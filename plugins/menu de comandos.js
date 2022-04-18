@@ -352,11 +352,11 @@ conn.send3ButtonImg(m.chat, pp, menu, 'chica Bot_Calabera', '𝙼𝙴𝙽𝚄 �
 //ptt: true 
 //})
 //SEGUNDO CODIGO DE MUSICA, SACAR EN CASO NO FUNCIONE
-let vn = './media/menu_chica.mp3'
-await conn.sendFile(m.chat, vn, 'menu_chica.mp3', null, m, true, {
-    type: 'audioMessage', 
-    ptt: true 
-}
+//let vn = './media/menu_chica.mp3'
+//await conn.sendFile(m.chat, vn, 'menu_chica.mp3', null, m, true, {
+  //  type: 'audioMessage', 
+   // ptt: true 
+//}
 
 
 }
