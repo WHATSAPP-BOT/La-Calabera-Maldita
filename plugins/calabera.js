@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(calabera|hola calabera|Calabera)$/i
-
+handler.customPrefix = /calabera|Calabera|calaberita/
+handler.command = new RegExp
 module.exports = handler

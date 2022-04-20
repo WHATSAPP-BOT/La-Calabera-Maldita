@@ -50,8 +50,8 @@ let handler = async (m, { conn, usedPrefix }) => {
   let info = `
 ╠═〘 *Informacion del Bot* 〙 ═
 ╠
-╠➥ [🤴🏻] Creador del Bot: *Bruno Sobrino*
-╠➥ [#️⃣] Numero del creador: *+1 (772) 238-6341*
+╠➥ [🤴🏻] Creador del Bot: *LA CALABERA MALDITA*
+╠➥ [#️⃣] Numero del creador: *+51926328073*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
 ╠➥ [👨‍🦯] Velocidad: *${speed} milisegundos*
@@ -65,9 +65,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
-╠═〘 *The Shadow Brokers - Bot* 〙 ═
+╠═〘 *La Chica Bot - Calabera Maldita* 〙 ═
 `.trim() 
-conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.png`)}}}})
+conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 LA CHICA BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.png`)}}}})
 }
 //handler.help = ['ping', 'speed']
 //handler.tags = ['info', 'tools']
