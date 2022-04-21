@@ -4,9 +4,10 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn, usedPrefix }) => {
 let who = m.sender
 //codigo funcional poner en caso de que no funcione el otro
-let pp = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
-let kai = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
-
+//let pp = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
+//let kai = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
+//prueba
+let pp = './carro_calabera.jpg'
 //My codigo editado
 //let pp = await(await fetch('https://i.imgur.com/pmt6mIZ.jpg')).buffer()
 //let kai = await(await fetch('https://i.imgur.com/pmt6mIZ.jpg')).buffer()
