@@ -1,5 +1,4 @@
 # **🔥 LA CALABERA MALDITA - CHICA BOT 🔥**
-```
 ### `NECESITAS AYUDA?, CONTACTAME`
 <a href="http://wa.me/51926328073" target="blank"><img src="https://img.shields.io/badge/CALABERA_MALDITA-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
