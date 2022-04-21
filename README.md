@@ -1,16 +1,8 @@
 # **🔥 LA CALABERA MALDITA - CHICA BOT 🔥**
-### `ACTIVAR EN HEROKU (FASE EXPERIMENTAL)`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rodriku/La-Calabera-Maldita)
-```bash
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-> https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 ```
 ### `NECESITAS AYUDA?, CONTACTAME`
 <a href="http://wa.me/51926328073" target="blank"><img src="https://img.shields.io/badge/CALABERA_MALDITA-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
-### `Video tutorial para instalar el Bot`
-<a href="https://www.youtube.com/watch?v=dP8-aaHinBE&t=55s"><img height="30" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>&nbsp;&nbsp;
 
 ### `INSTALACION TERMUX`
 ```bash
