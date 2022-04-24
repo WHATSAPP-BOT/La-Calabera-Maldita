@@ -8,8 +8,8 @@ let who = m.sender
 //let kai = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
 //prueba
 //My codigo editado
-let pp = await(await fetch('https://i.imgur.com/pmt6mIZ.jpg')).buffer()
-//let kai = await(await fetch('https://i.imgur.com/pmt6mIZ.jpg')).buffer()
+let pp = await(await fetch('https://ibb.co/D8k3YSb')).buffer()
+let kai = await(await fetch('https://ibb.co/D8k3YSb')).buffer()
 
 //funcional
 //let text = `*https://github.com/rodriku/La-Calabera-Maldita*`.trim()
