@@ -36,7 +36,3 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-//handler.customPrefix = /como estas|Como estass|como stas|Como estas|como estas|q tal|como stas/
-handler.command = new RegExp
-handler.command = /^sc|sc|script|repositorio$/i
-module.exports = handler
