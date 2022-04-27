@@ -25,14 +25,3 @@ thumbnail: pp
 }}})}
 handler.command = /^sc|script|repositorio|repobot|scbot$/i
 module.exports = handler
-//SACAR ESTE CODIGO EN CASO QUE NO FUNCIONE
-let util = require('util')
-let path = require('path')
-
-let handler = async (m, { conn }) => {
-let vn = './media/sc_hola.mp3'
-conn.sendFile(m.chat, vn, 'sc_hola.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true 
-})
-}
