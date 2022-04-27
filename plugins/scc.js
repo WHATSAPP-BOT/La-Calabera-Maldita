@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /^sc|Sc|sc|sc$/i
+handler.customPrefix = /^sc|Sc|sc|script|repositorio|sc$/i
 handler.command = new RegExp
 module.exports = handler
