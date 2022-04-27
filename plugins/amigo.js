@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /amigo|Amigo|amiguito|amigoo|amigoo|amigooo/
+handler.customPrefix = /amigo|Amigo|amiguito|amigoo|amigoo|mano|manito|amiga|amigooo/
 handler.command = new RegExp
 module.exports = handler

@@ -9,8 +9,8 @@ let who = m.sender
 //prueba
 //let pp = './media/carro_calabera.jpg'
 //My codigo editado
-let pp = await(await fetch('https://i.imgur.com/pmt6mIZ.jpg')).buffer()
-let kai = await(await fetch('https://i.imgur.com/pmt6mIZ.jpg')).buffer()
+let pp = await(await fetch('https://ibb.co/D8k3YSb')).buffer()
+let kai = await(await fetch('https://ibb.co/D8k3YSb')).buffer()
 
 //funcional
 //let text = `*https://github.com/rodriku/La-Calabera-Maldita*`.trim()
@@ -23,8 +23,9 @@ title: 'REPOSITORIO DE LA CALABERA',
 body: '🤖 Chica Bot 🤖',
 thumbnail: pp
 }}})}
-//SACAR EN CASO NO FUNCIONE
-/////SACAR CODIGO EN CASO NO FUNCIONE
+handler.command = /^sc|script|repositorio|repobot|scbot$/i
+module.exports = handler
+//SACAR ESTE CODIGO EN CASO QUE NO FUNCIONE
 let util = require('util')
 let path = require('path')
 
@@ -35,6 +36,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-//CODIGO FUNCIONAAL
-handler.command = /^sc|script|repositorio|repobot|scbot$/i
+//handler.customPrefix = /como estas|Como estass|como stas|Como estas|como estas|q tal|como stas/
+handler.command = new RegExp
+handler.command = /^sc|sc|script|repositorio$/i
 module.exports = handler
