@@ -26,14 +26,14 @@ let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
         mentionedJid: conn.parseMention(teks)
       }
     })
-    await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, false, 'Hey!! Hola, me presento, soy The Shadow Brokers - Bot, y soy un Bot para WhatsApp, una persona del grupo utilizo el comando para añadirte al grupo, pero no pude agregarte, asi que te mando la invitacion para que te agregues, te esperamos!!', jpegThumbnail ? {
+    await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, false, 'Hey!! Hola, me presento, soy The Calabera Maldita, y soy un Bot para WhatsApp, una persona del grupo utilizo el comando para añadirte al grupo, pero no pude agregarte, asi que te mando la invitacion para que te agregues, te esperamos!!', jpegThumbnail ? {
       jpegThumbnail
     } : {})
   }
 }
 handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['admin']
-handler.command = /^(add|agregar|añadir|\+)$/i
+handler.command = /^(add|agregar|add|añadir|\+)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

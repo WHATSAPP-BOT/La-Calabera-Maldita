@@ -12,7 +12,7 @@ const info = await conn.groupMetadata(m.chat)
 let vn = './media/Invocar.mp3'
 let users = (await conn.groupMetadata(m.chat)).participants.map(u => u.jid)
 let pesan = args.join` `
-let oi = `*LA CALABERA MALDITA:* ${pesan}`
+let oi = `*LA CHICA BOT - CALABERA MALDITA:* ${pesan}`
 let hmm = `*🐲 I N V O C A N D O - G R U P O 🐲*\n\n`
 let duh = `└\n\n*▌│█║▌║▌║║▌║▌║▌║█*` 
 var teks = `${oi}\n\n❏\n`

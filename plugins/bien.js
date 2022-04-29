@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /bien|Bien|bienn|bien amigo|bien sobrino|vien|bien/
+handler.customPrefix = /bien|Bien|bienn|bien amigo|bien sobrino|bien bro|biem|vien|bien/
 handler.command = new RegExp
 module.exports = handler

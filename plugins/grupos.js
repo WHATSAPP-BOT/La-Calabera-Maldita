@@ -6,9 +6,9 @@ let info = `
 *Hola 👋🐲, unete a los grupos oficiales de la Calabera Maldita*
 *╔─━━━━━━░★░━━━━━━─╗*
 *➤ Grupos oficiales del Bot:*
-*1.-* https://chat.whatsapp.com/GIq7aW0ouU199StPUV8etI
+*1.-* https://chat.whatsapp.com/G7pkTluDaSq2UyAdMd7sSv
 
-*2.-* https://chat.whatsapp.com/DjzarHeUstsC6QIRULYwi4
+*2.-* https://chat.whatsapp.com/Iei6rIRWTw0JSriqb1BP1y
 
 `.trim() 
 
