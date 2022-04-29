@@ -1,0 +1,13 @@
+let util = require('util')
+let path = require('path')
+
+let handler = async (m, { conn }) => {
+let vn = './media/pago.mp3'
+conn.sendFile(m.chat, vn, 'pago.mp3', null, m, true, {
+type: 'audioMessage', 
+ptt: true 
+})
+}
+handler.customPrefix = /yape|metodos de pago|metodo|en que te pago|tienes yape|tienes bcp|en que te deposito|como te pago/
+handler.command = new RegExp
+module.exports = handler
