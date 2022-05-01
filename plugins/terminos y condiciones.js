@@ -41,17 +41,18 @@ _- Si en algún momento recibe un mensaje del numero del Bot y no es un comando 
 *- The.sad.boy01*
 *- botstylee*
 *- Amel*
+*- Calabera*
 
 *⁉️ Te quedaron dudas?*
 
 _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al Bot, contáctame a mi numero personal al cual estaré respondiendo lo antes posible para brindarte una solución y/o hacerme responsable de alguna reclamación_ 
-> wa.me/5219996125657
-> Bruno Sobrino 
-> Correo electronico: theshadowbrokers133@gmailcom
+> wa.me/51926328073
+> Chica Bot - Calabera 
+> Correo electronico: romansystem.3786@gmail.com
 
-→ *Solo contactar por temas serios, para preguntas del Bot mas generales contáctame al privado con el comando del comando #owner (al numero wa.me/17722386341)*
+→ *Solo contactar por temas serios, para preguntas del Bot mas generales contáctame al privado con el comando del comando #owner (al numero wa.me/13362711679)*
 
-*∆ THE SHADOW BROKERS - BOT ∆*
+*∆ La Calabera ∆*
 `.trim(), m)
 let mentionedJid = [m.sender]} 
 handler.customPrefix = /términos y condiciones y privacidad|terminosycondicionesyprivacidad|terminosycondiciones|terminos y condiciones y privacidad|terminos y condiciones|terminos y condiciones|terminos de uso|Terminos de uso|Terminó se uso|términos de uso|Términos de uso|Términos y condiciones/i

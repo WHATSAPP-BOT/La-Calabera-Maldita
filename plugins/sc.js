@@ -1,15 +1,26 @@
-//Codigo by ShadowBotV3
+//Codigo by calabera
+//funcional
 let fetch = require('node-fetch')
 let handler = async (m, { conn, usedPrefix }) => {
 let who = m.sender
-let pp = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
-let kai = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
-let text = `*https://github.com/BrunoSobrino/ShadowBotV3*`.trim()
+//codigo funcional poner en caso de que no funcione el otro
+//let pp = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
+//let kai = await(await fetch('https://i.imgur.com/oHrJTtq.jpg')).buffer()
+//prueba
+//let pp = './media/carro_calabera.jpg'
+//My codigo editado
+let pp = await(await fetch('https://ibb.co/D8k3YSb')).buffer()
+let kai = await(await fetch('https://ibb.co/D8k3YSb')).buffer()
+
+//funcional
+//let text = `*https://github.com/rodriku/La-Calabera-Maldita*`.trim()
+//My codigo editado
+let text = `*Repositorio privado de la calabera*`.trim()
 conn.reply(m.chat, text, m, { thumbnail: kai, contextInfo: {
 mentionedJid: [who],
 externalAdReply: {
-title: '𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
-body: '🤖 Ｓｈａｄｏｗ Ｂｏｔ 🤖',
+title: 'REPOSITORIO DE LA CALABERA',
+body: '🤖 Chica Bot 🤖',
 thumbnail: pp
 }}})}
 handler.command = /^sc|script|repositorio|repobot|scbot$/i

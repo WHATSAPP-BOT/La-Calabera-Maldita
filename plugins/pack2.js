@@ -3,8 +3,8 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = packgirl[Math.floor(Math.random() * packgirl.length)]
 	await conn.sendMessage(m.chat, {
-		contentText: 'Pack xxx By ShadowBot',
-		footerText: '©The Shadow Brokers - Bot',
+		contentText: 'Pack xxx By La Calabera',
+		footerText: '©Informatic Security - Bot',
 		buttons: [
 			{ buttonId: '.pack2', buttonText: { displayText: 'SIGUIENTE' }, type: 1 }
 		],
@@ -18,6 +18,28 @@ handler.help = ['pack']
 module.exports = handler
 
 global.packgirl = [
+  "https://imgur.com/wjvjj0J.jpg",
+  "https://imgur.com/7VMDI3q.jpg",
+  "https://imgur.com/MjJGoNj.jpg",
+  "https://imgur.com/54xLIpP.jpg",
+  "https://imgur.com/HJXM9Tw.jpg",
+  "https://imgur.com/KJ2IrtN.jpg",
+  "https://imgur.com/IIgCKuN.jpg",
+  "https://imgur.com/FmSmrge.jpg",
+  "https://imgur.com/JkErFFm.jpg",
+  "https://imgur.com/FH0tv41.jpg",
+  "https://imgur.com/8fAeR4e.jpg",
+  "https://imgur.com/2GvlGmP.jpg",
+  "https://imgur.com/ApFzKX7.jpg",
+  "https://imgur.com/mcI4nSu.jpg",
+  "https://imgur.com/A0t8hKv.jpg",
+  "https://imgur.com/uqlHzq3.jpg",
+  "https://imgur.com/exCEAt7.jpg",
+  "https://imgur.com/zBc3p3C.jpg",
+  "https://imgur.com/Av6Rigg.jpg",
+  "https://imgur.com/vli8uZP.jpg",
+  "https://imgur.com/Femgp8h.jpg",
+  "https://imgur.com/8bnKfOi.jpg",
   "https://i.imgur.com/mwLJaxU.jpg",
   "https://i.imgur.com/9ptmlPl.jpg",
   "https://i.imgur.com/38tVliz.jpg",
@@ -54,4 +76,4 @@ global.packgirl = [
   "https://i.imgur.com/skkEyqI.jpg",
   "https://i.imgur.com/6dXFsBW.jpg",
   "https://i.imgur.com/6CeG9ZX.jpg"
-]
+  ]

@@ -3,7 +3,7 @@ command_not_found_handle() {
 }
 
 PS1='\[\e[1;32m\]╭╼━━┥ ⚒ ┝━━╾╮
-┝ြ🔥\e[1;36mˢ͟𝕿𝖍𝖊 𝕾𝖍𝖆𝖉𝖔𝖜 𝕭𝖗𝖔𝖐𝖊𝖗𝖘 - 𝕭𝖔𝖙➫\e[1;32m
+┝ြ🔥\e[1;36mˢ͟LA CALABERA MALDITA - CHICA BOT➫\e[1;32m
 ┝━━━━━ᷤ━ͣ━ͫ━ͧ━━╾╯
 ╰━━━┽:\[\e[1;35m\]\w\[\e[1;32m\] \$\[\e[0m\] '
 echo -ne "\033]12;#FF0000\007"
@@ -263,6 +263,6 @@ cd $HOME
 termimage Menu2.jpg
 toilet -f smmono12 -f pagga -F border -F gay      'TE AMO KENYA :3'
 cowsay -f eyes Bruno Sobrino | lolcat
-toilet -f big ' The Shadow Brokers - Bot' -F gay | lolcat
+toilet -f big ' La Calabera Maldita - Bot' -F gay | lolcat
 neofetch
 play Shadow.wav
