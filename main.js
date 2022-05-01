@@ -39,7 +39,7 @@ if (!global.DATABASE.data.stats) global.DATABASE.data.stats = {}
 if (!global.DATABASE.data.msgs) global.DATABASE.data.msgs = {}
 if (!global.DATABASE.data.sticker) global.DATABASE.data.sticker = {}
 global.conn = new WAConnection()
-conn.browserDescription = ['La Chica - Bot', 'Firefox', '3.0']
+conn.browserDescription = ['The Shadow Brokers - Bot', 'Firefox', '3.0']
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
@@ -121,15 +121,10 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = '█▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃█\n┃╔─━━━━━━░ *🐲WELCOME🐲* ░━━━━━━─╗\n┃━━━━━━━━━━━━\n┃ *_✨ @user bienvenid@ a_* \n┃ *_@subject ✨_*\n┃\n┃=> *_En este grupo podrás_*\n┃ *_encontrar:_*\n┠⊷ *_Servidores VPS 💉 _*\n┠⊷ *_Amistades 🫂* \n┠⊷ *Enemig@s 🥵* :\n┠⊷ *Un Bot Sexy*\n┃\n┃=> *_Puedes solicitar mi lista de_*\n┃ *_comandos con:_*\n┠⊷ *#menu*\n┃\n┃=> *_Aquí tienes la descripción_* \n┃ *_del grupo, léela!!_*\n┃\n\n@desc\n\n┃ \n┃ *_🐍  Disfruta de tu_* \n┃ *_estadía en el grupo de la Chica Bot Calabera🐍_*  \n┃\n┗━━━━━━━━━━━'
-  conn.bye = '┏━━━━━━━━━━━━\n┃──〘 *ADIOS* 〙───\n┃━━━━━━━━━━━━\n┃ *_☠ Se fue @user_* \n┃ *_Le tiene miedo a la Calabera, Que dios lo bendiga️_* \n┃ *_ Y se vuelva gay 😇_*\n┗━━━━━━━━━━'
-  conn.spromote = '*@user 🐍 AHORA FORMAS PARTE DE LOS ADMINISTRADORES DEL GRUPO🐍*'
-  conn.sdemote = '*@user BIENVENIDO🐲 AHORA FORMAS PARTE DE LOS INTEGRANTES DEL GRUPO CALABERA*'
-  //CODIGO AGREGADO, SI NO FUNIONA QUITAR ESTE CODIGO
-   conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
-  conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
-  conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*'
-  conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
+  conn.welcome = '┏━━━━━━━━━━━━\n┃──〘 *WELCOME* 〙──\n┃━━━━━━━━━━━━\n┃ *_✨ @user bienvenid@ a_* \n┃ *_@subject ✨_*\n┃\n┃=> *_En este grupo podrás_*\n┃ *_encontrar:_*\n┠⊷ *Amistades 🫂* \n┠⊷ *Desmadre 💃🕺* \n┠⊷ *Relajo 💅* \n┠⊷ *Enemig@s 🥵* :\n┠⊷ *Un Bot Sexy*\n┃\n┃=> *_Puedes solicitar mi lista de_*\n┃ *_comandos con:_*\n┠⊷ *#menu*\n┃\n┃=> *_Aquí tienes la descripción_* \n┃ *_del grupo, léela!!_*\n┃\n\n@desc\n\n┃ \n┃ *_🔰  Disfruta de tu_* \n┃ *_estadía en el grupo  🔰_*  \n┃\n┗━━━━━━━━━━━'
+  conn.bye = '┏━━━━━━━━━━━━\n┃──〘 *ADIOS* 〙───\n┃━━━━━━━━━━━━\n┃ *_☠ Se fue @user_* \n┃ *_Que dios lo bendiga️_* \n┃ *_Y lo atropelle un tren 😇_*\n┗━━━━━━━━━━'
+  conn.spromote = '*@user 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎!! 𝐀𝐇𝐎𝐑𝐀 𝐅𝐎𝐑𝐌𝐀𝐒 𝐏𝐀𝐑𝐓𝐄 𝐃𝐄 𝐋𝐎𝐒 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐑𝐄𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎*'
+  conn.sdemote = '*@user 𝐀𝐇𝐎𝐑𝐀 𝐘𝐀 𝐅𝐎𝐑𝐌𝐀𝐒 𝐏𝐀𝐑𝐓𝐄 𝐃𝐄 𝐋𝐎𝐒 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐃𝐎𝐑𝐄𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎*'
   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate
@@ -158,17 +153,6 @@ global.reloadHandler = function () {
   isInit = false
   return true
 }
-//COMANDO PARA AUDIO , EN CASO NO FUNCIONES SACAR ESTE CODIGO
-//await await await await await await conn.sendFile(m.chat, vn, 'menu_chica.mp3', null, m, true, {
-//type: 'audioMessage', 
-//ptt: true 
-//})
-//SEGUNDO CODIGO DE MUSICA, SACAR EN CASO NO FUNCIONE
-//let vn = './media/bienvenido_grupo.mp3'
-//await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
- //   type: 'audioMessage', 
-   // ptt: true 
-//}
 
 // Plugin Loader
 let pluginFolder = path.join(__dirname, 'plugins')
@@ -254,9 +238,3 @@ async function _quickTest() {
 _quickTest()
   .then(() => conn.logger.info('Quick Test Done'))
   .catch(console.error)
-  //COMANDO PARA AUDIO DEJARLO EN EL CASO QUE FUNCIONE
-//await await await await await await conn.sendFile(m.chat, vn, 'bienvenido_grupo.mp3', null, m, true, {
-//type: 'audioMessage', 
-//ptt: true 
-//})
-//}

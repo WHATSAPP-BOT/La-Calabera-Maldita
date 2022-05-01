@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     let _thumb = {}
     try { _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
     catch (e) { }
-    await m.reply(`*✳️ Espere un momento, La chica bot esta descargando su video*\n\n*⚠️ Si su vídeo no es envíado después de 5 minutos, por favor inténtelo nuevamente, si el error perdura intente con un video de menor tamaño*`)
+    await m.reply(`*✳️ Espere un momento, estoy descargando su video*\n\n*⚠️ Si su vídeo no es envíado después de 5 minutos, por favor inténtelo nuevamente, si el error perdura intente con un video de menor tamaño*`)
 conn.sendFile(m.chat, dl_link, '', `
 *🔰 Aquí tienes tu video*
   `.trim(), m, 0, {

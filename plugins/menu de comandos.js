@@ -9,39 +9,39 @@ let moment = require('moment-timezone')
 let path = require('path')
 let util = require('util')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './calabera_bot_editable.jpg'
+let pp = './Menu2.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-╭══〘 |✯✯✯✯✯✯✯| 〙═╮
-║═ *🇱🇷La Chica Bot _ Calabera*
-║🐍🐍🐍🐍🐍🐍🐍🐍
-║➤ *🐲𝗛ola, ${username}*
+╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║🐲 *Creador del Bot: La Calabera Maldita* 
-║🐍 *Numero del creador:* *wa.me/51926328073 (No Bot)*
-║📱 *PayPal:* *romnasystem.3786@gmail.com*
-║🐲 *Numero del Bot oficial:* *wa.me/13362711679*
-║🐍🐍🐍🐍🐍🐍🐍🐍
+║➤ *✨𝗛ola, ${username}!!*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➤ *Creador del Bot: Bruno Sobrino* 
+║➤ *Numero del creador:* *wa.me/5219992095479 (No Bot)*
+║➤ *PayPal:* *https://www.paypal.me/TheShadowBrokers133*
+║➤ *Numero del Bot oficial:* *wa.me/5219991402134*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
 ┃ *<INFORMACIÓN|MENUS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🌎️️ _${usedPrefix}sc_
-┣ ඬ⃟🌎️️ _${usedPrefix}donar_
-┣ ඬ⃟🌎️️ _${usedPrefix}infobot_
-┣ ඬ⃟🌎️️ _${usedPrefix}grupos_
-┣ ඬ⃟🌎️ _${usedPrefix}instalarbot_
-┣ ඬ⃟🌎️ _${usedPrefix}menusimple_
-┣ ඬ⃟🌎️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟🌎️️ _${usedPrefix}menu2_
-┣ ඬ⃟🌎️️ _${usedPrefix}labiblia_
-┣ ඬ⃟🌎️ _${usedPrefix}estado_
-┣ ඬ⃟🌎️ _Bot_
-┣ ඬ⃟🌎️ _¿Qué es un Bot?_
-┣ ඬ⃟🌎️ _Codigos para audios_
-┣ ඬ⃟🌎️ _Términos y condiciones_
+┣ ඬ⃟ℹ️️ _${usedPrefix}sc_
+┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
+┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
+┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
+┣ ඬ⃟ℹ️ _${usedPrefix}instalarbot_
+┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
+┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
+┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
+┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
+┣ ඬ⃟ℹ️ _${usedPrefix}estado_
+┣ ඬ⃟ℹ️ _Bot_
+┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
+┣ ඬ⃟ℹ️ _Codigos para audios_
+┣ ඬ⃟ℹ️ _Términos y condiciones_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<REPORTA FALLOS EN ALGÚN COMANDO/>*
@@ -345,20 +345,11 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, 'chica Bot_Calabera', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
-//COMANDO PARA AUDIO , EN CASO NO FUNCIONES SACAR ESTE CODIGO
-//await await await await await await conn.sendFile(m.chat, vn, 'menu_chica.mp3', null, m, true, {
+conn.send3ButtonImg(m.chat, pp, menu, '©The Shadow Brokers - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
+//await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
 //})
-//SEGUNDO CODIGO DE MUSICA, SACAR EN CASO NO FUNCIONE
-//let vn = './media/menu_chica.mp3'
-//await conn.sendFile(m.chat, vn, 'menu_chica.mp3', null, m, true, {
-  //  type: 'audioMessage', 
-   // ptt: true 
-//}
-
-
 }
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
 handler.fail = null
