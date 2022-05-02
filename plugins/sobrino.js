@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /sobrino|Sobrino|hijo|sobrino|sobrina/
+handler.customPrefix = /sobrino|Sobrino|hijo|hija|sobrino|sobrino|sobrina/
 handler.command = new RegExp
 module.exports = handler

@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /yape|metodos de pago|metodo|en que te pago|Yape|En que te pago|tienes yape|tienes bcp|en que te deposito|Tienes bcp|como te pago/
+handler.customPrefix = /yape|metodos de pago|metodos|yape|Yape|YAPE|metodo|metodos|en que te pago|Yape|En que te pago|tienes yape|Tienes yape|tienes bcp|en que te deposito|Tienes bcp|como te pago/
 handler.command = new RegExp
 module.exports = handler

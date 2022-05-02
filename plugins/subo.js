@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /sube hijo|sube a comer hijo|sube hijoo|Sube|sube a comer /
+handler.customPrefix = /sube hijo|sube a comer hijo|sube a comer|sube para que comas|sube hijo|sube hijoo|sube|Sube|sube a comer /
 handler.command = new RegExp
 module.exports = handler

@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /himno|himno militar|los comandos|ejercito|Ejercito|marina de guerra|vraen|Himno|Vraen|marina|militar/
+handler.customPrefix = /himno|himno militar|guerra|los comandos|ejercito|Ejercito|marina de guerra|vraen|Himno|Vraen|marina|militar/
 handler.command = new RegExp
 module.exports = handler

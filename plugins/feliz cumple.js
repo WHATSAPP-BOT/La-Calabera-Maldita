@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /feliz cumpleaños|felizcumpleaños|happy birthday/i
+handler.customPrefix = /feliz cumpleaños|Feliz cumpleaños|feliz cumple|felizcumpleaños|happy birthday/i
 handler.command = new RegExp
 
 
