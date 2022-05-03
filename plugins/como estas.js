@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /como estas|Como estass|como stas|Como estas|Q tal|como estas|q tal|como stas/
+handler.customPrefix = /como estas|cómo estas|Cómo estas|Cómo Estas|Como estass|como stas|Como estas|Q tal|como estas|q tal|como stas/
 handler.command = new RegExp
 module.exports = handler
