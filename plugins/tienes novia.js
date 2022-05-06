@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /tienes novia|Tienes novia|Tienes Novia|tienes enamorada|Tienes enamorada|estas soltero|tienes novia|Estas soltero|y tu enamorada/
+handler.customPrefix = /tienes novia|Tienes novia|novia|Tienes Novia|tienes enamorada|Tienes enamorada|estas soltero|tienes novia|Estas soltero|y tu enamorada/
 handler.command = new RegExp
 module.exports = handler
